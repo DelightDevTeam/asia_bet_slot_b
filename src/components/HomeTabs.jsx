@@ -11,7 +11,7 @@ function HomeTabs() {
   const { data: casinoGames } = useFetch(BASE_URL + '/gameTypeProducts/2');
   const { data: sportGames } = useFetch(BASE_URL + '/gameTypeProducts/3');
   const { data: fishGames } = useFetch(BASE_URL + '/gameTypeProducts/4');
-  console.log(gameTypes);
+  // console.log(gameTypes);
 
   const slots = slotGames?.products;
   const casinos = casinoGames?.products;
