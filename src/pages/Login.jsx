@@ -93,7 +93,7 @@ const Login = () => {
         <>
             <div className="d-flex justify-content-center align-items-center mb-5">
 
-                <div style={{ background: '#431e77', color: '#d0c7dd', borderRadius: '50px' }} className="py-5 px-3 logins">
+                <div style={{ background: '#00393A', color: '#d0c7dd', borderRadius: '50px', border: '1px solid #fff' }} className="py-5 px-3 logins">
 
                     <div className="text-center mt-sm-3 mb-3">
                         <h5 className="gradient-text py-sm-3">Login</h5>
@@ -135,7 +135,7 @@ const Login = () => {
                             )}
                         </Form.Group>
                         <div>
-                            <Button variant="primary" type="submit" className="w-100 d-flex justify-content-center" style={{ background: 'linear-gradient(to right, #cc45c4,#7944bc,#4277b6)' }}>
+                            <Button type="submit" className="w-100 d-flex justify-content-center shadow btn-light" style={{ background: "#fff !important" }}>
                                 {loading && 
                                     <div className="me-2">
                                         <Spinner />

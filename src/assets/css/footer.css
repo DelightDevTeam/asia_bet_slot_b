@@ -1,5 +1,5 @@
 footer {
-    background: #3A2557;
+    background: #00393A;
 }
 
 footer p {
@@ -9,7 +9,7 @@ footer p {
 
 footer button {
     font-size: 14px;
-    background: linear-gradient(to right, rgb(204, 69, 196), rgb(121, 68, 188), rgb(66, 119, 182));
+    /* background: linear-gradient(to right, rgb(204, 69, 196), rgb(121, 68, 188), rgb(66, 119, 182)); */
     color: #fff;
 }
 
@@ -19,9 +19,9 @@ footer h5 {
 }
 
 .footerFixedIcon {
-    background: linear-gradient(to right, #ff7e5f, #feb47b, #ffdf93, #a1e4ff, #b5fffd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-color: #00393A;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
 }
 
 .footerFixed {
@@ -30,7 +30,7 @@ footer h5 {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #111;
+    background: #00393A;
 }
 
 

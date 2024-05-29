@@ -14,11 +14,11 @@ import profile from '../assets/img/profile.png';
 
 const FooterFixed = () => {
     const footer = [
-        { id: 1, title: 'Home', icon: <IoHomeOutline color='#BC45C2' size={21} />, link: '/' },
-        { id: 2, title: 'Promotion', icon: <LuGift color='#BC45C2' size={21} />, link: '/promotion' },
-        { id: 3, title: 'Game Log', icon: <GoLog color='#BC45C2' size={21} />, link: '/gamelog' },
-        { id: 4, title: 'History', icon: <FaRegClock color='#BC45C2' size={21} />, link: '/history' },
-        { id: 5, title: 'Profile', icon: <FaRegCircleUser color='#BC45C2' size={21} />, link: '/profile' },
+        { id: 1, title: 'Home', icon: <IoHomeOutline color='#fff' size={21} />, link: '/' },
+        { id: 2, title: 'Promotion', icon: <LuGift color='#fff' size={21} />, link: '/promotion' },
+        { id: 3, title: 'Game Log', icon: <GoLog color='#fff' size={21} />, link: '/gamelog' },
+        { id: 4, title: 'History', icon: <FaRegClock color='#fff' size={21} />, link: '/history' },
+        { id: 5, title: 'Profile', icon: <FaRegCircleUser color='#fff' size={21} />, link: '/profile' },
     ]
 
     return (
